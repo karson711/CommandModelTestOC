@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFB47D7120E514CB00B4C016 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB47D7020E514CB00B4C016 /* main.m */; };
+		FFB47D7A20E517DF00B4C016 /* TMLeftCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB47D7920E517DF00B4C016 /* TMLeftCommand.m */; };
+		FFB47D7D20E5186400B4C016 /* TetrisMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB47D7C20E5186400B4C016 /* TetrisMachine.m */; };
+		FFB47D8020E5198200B4C016 /* TMCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB47D7F20E5198200B4C016 /* TMCommandManager.m */; };
+		FFB47D8320E519D200B4C016 /* TMRightCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB47D8220E519D200B4C016 /* TMRightCommand.m */; };
+		FFB47D8620E51A7B00B4C016 /* TMTransformCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB47D8520E51A7B00B4C016 /* TMTransformCommand.m */; };
+		FFB47D8A20E51E9E00B4C016 /* DynamicCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB47D8920E51E9E00B4C016 /* DynamicCommand.m */; };
+		FFB47D8D20E5206200B4C016 /* DynamicCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB47D8C20E5206200B4C016 /* DynamicCommandManager.m */; };
+		FFB47D9120E5230B00B4C016 /* WrapperCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB47D9020E5230B00B4C016 /* WrapperCommand.m */; };
+		FFB47D9420E5239300B4C016 /* WrapperCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB47D9320E5239300B4C016 /* WrapperCommandManager.m */; };
+		FFB47D9820E5268F00B4C016 /* GenericsCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB47D9720E5268F00B4C016 /* GenericsCommand.m */; };
+		FFB47D9B20E5292A00B4C016 /* GenericsCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB47D9A20E5292A00B4C016 /* GenericsCommandManager.m */; };
+		FFB47D9F20E52AC800B4C016 /* QueueCommandMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB47D9E20E52AC800B4C016 /* QueueCommandMananger.m */; };
+		FFB47DA320E52D1300B4C016 /* BlockCommandManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB47DA220E52D1300B4C016 /* BlockCommandManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFB47D6B20E514CB00B4C016 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FFB47D6D20E514CB00B4C016 /* CommandModelTestOC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandModelTestOC; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB47D7020E514CB00B4C016 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFB47D7720E5176F00B4C016 /* TMCommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMCommandProtocol.h; sourceTree = "<group>"; };
+		FFB47D7820E517DF00B4C016 /* TMLeftCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMLeftCommand.h; sourceTree = "<group>"; };
+		FFB47D7920E517DF00B4C016 /* TMLeftCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMLeftCommand.m; sourceTree = "<group>"; };
+		FFB47D7B20E5186400B4C016 /* TetrisMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TetrisMachine.h; sourceTree = "<group>"; };
+		FFB47D7C20E5186400B4C016 /* TetrisMachine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetrisMachine.m; sourceTree = "<group>"; };
+		FFB47D7E20E5198200B4C016 /* TMCommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMCommandManager.h; sourceTree = "<group>"; };
+		FFB47D7F20E5198200B4C016 /* TMCommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMCommandManager.m; sourceTree = "<group>"; };
+		FFB47D8120E519D200B4C016 /* TMRightCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMRightCommand.h; sourceTree = "<group>"; };
+		FFB47D8220E519D200B4C016 /* TMRightCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMRightCommand.m; sourceTree = "<group>"; };
+		FFB47D8420E51A7B00B4C016 /* TMTransformCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTransformCommand.h; sourceTree = "<group>"; };
+		FFB47D8520E51A7B00B4C016 /* TMTransformCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMTransformCommand.m; sourceTree = "<group>"; };
+		FFB47D8820E51E9E00B4C016 /* DynamicCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicCommand.h; sourceTree = "<group>"; };
+		FFB47D8920E51E9E00B4C016 /* DynamicCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCommand.m; sourceTree = "<group>"; };
+		FFB47D8B20E5206200B4C016 /* DynamicCommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicCommandManager.h; sourceTree = "<group>"; };
+		FFB47D8C20E5206200B4C016 /* DynamicCommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicCommandManager.m; sourceTree = "<group>"; };
+		FFB47D8F20E5230B00B4C016 /* WrapperCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WrapperCommand.h; sourceTree = "<group>"; };
+		FFB47D9020E5230B00B4C016 /* WrapperCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WrapperCommand.m; sourceTree = "<group>"; };
+		FFB47D9220E5239300B4C016 /* WrapperCommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WrapperCommandManager.h; sourceTree = "<group>"; };
+		FFB47D9320E5239300B4C016 /* WrapperCommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WrapperCommandManager.m; sourceTree = "<group>"; };
+		FFB47D9620E5268F00B4C016 /* GenericsCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericsCommand.h; sourceTree = "<group>"; };
+		FFB47D9720E5268F00B4C016 /* GenericsCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericsCommand.m; sourceTree = "<group>"; };
+		FFB47D9920E5292A00B4C016 /* GenericsCommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericsCommandManager.h; sourceTree = "<group>"; };
+		FFB47D9A20E5292A00B4C016 /* GenericsCommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericsCommandManager.m; sourceTree = "<group>"; };
+		FFB47D9D20E52AC800B4C016 /* QueueCommandMananger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueCommandMananger.h; sourceTree = "<group>"; };
+		FFB47D9E20E52AC800B4C016 /* QueueCommandMananger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueCommandMananger.m; sourceTree = "<group>"; };
+		FFB47DA120E52D1300B4C016 /* BlockCommandManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockCommandManager.h; sourceTree = "<group>"; };
+		FFB47DA220E52D1300B4C016 /* BlockCommandManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockCommandManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFB47D6A20E514CB00B4C016 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFB47D6420E514CB00B4C016 = {
+			isa = PBXGroup;
+			children = (
+				FFB47D6F20E514CB00B4C016 /* CommandModelTestOC */,
+				FFB47D6E20E514CB00B4C016 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFB47D6E20E514CB00B4C016 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFB47D6D20E514CB00B4C016 /* CommandModelTestOC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFB47D6F20E514CB00B4C016 /* CommandModelTestOC */ = {
+			isa = PBXGroup;
+			children = (
+				FFB47D7020E514CB00B4C016 /* main.m */,
+				FFB47DA020E52CE400B4C016 /* 案例5-Block命令 */,
+				FFB47D9C20E52AAA00B4C016 /* 案例4-并发处理 */,
+				FFB47D9520E5267900B4C016 /* 案例3-泛型命令 */,
+				FFB47D8E20E522F900B4C016 /* 案例2-复合命令 */,
+				FFB47D8720E51E8500B4C016 /* 案例1-动态调用 */,
+				FFB47D7B20E5186400B4C016 /* TetrisMachine.h */,
+				FFB47D7C20E5186400B4C016 /* TetrisMachine.m */,
+				FFB47D7720E5176F00B4C016 /* TMCommandProtocol.h */,
+				FFB47D7820E517DF00B4C016 /* TMLeftCommand.h */,
+				FFB47D7920E517DF00B4C016 /* TMLeftCommand.m */,
+				FFB47D8120E519D200B4C016 /* TMRightCommand.h */,
+				FFB47D8220E519D200B4C016 /* TMRightCommand.m */,
+				FFB47D8420E51A7B00B4C016 /* TMTransformCommand.h */,
+				FFB47D8520E51A7B00B4C016 /* TMTransformCommand.m */,
+				FFB47D7E20E5198200B4C016 /* TMCommandManager.h */,
+				FFB47D7F20E5198200B4C016 /* TMCommandManager.m */,
+			);
+			path = CommandModelTestOC;
+			sourceTree = "<group>";
+		};
+		FFB47D8720E51E8500B4C016 /* 案例1-动态调用 */ = {
+			isa = PBXGroup;
+			children = (
+				FFB47D8820E51E9E00B4C016 /* DynamicCommand.h */,
+				FFB47D8920E51E9E00B4C016 /* DynamicCommand.m */,
+				FFB47D8B20E5206200B4C016 /* DynamicCommandManager.h */,
+				FFB47D8C20E5206200B4C016 /* DynamicCommandManager.m */,
+			);
+			path = "案例1-动态调用";
+			sourceTree = "<group>";
+		};
+		FFB47D8E20E522F900B4C016 /* 案例2-复合命令 */ = {
+			isa = PBXGroup;
+			children = (
+				FFB47D8F20E5230B00B4C016 /* WrapperCommand.h */,
+				FFB47D9020E5230B00B4C016 /* WrapperCommand.m */,
+				FFB47D9220E5239300B4C016 /* WrapperCommandManager.h */,
+				FFB47D9320E5239300B4C016 /* WrapperCommandManager.m */,
+			);
+			path = "案例2-复合命令";
+			sourceTree = "<group>";
+		};
+		FFB47D9520E5267900B4C016 /* 案例3-泛型命令 */ = {
+			isa = PBXGroup;
+			children = (
+				FFB47D9620E5268F00B4C016 /* GenericsCommand.h */,
+				FFB47D9720E5268F00B4C016 /* GenericsCommand.m */,
+				FFB47D9920E5292A00B4C016 /* GenericsCommandManager.h */,
+				FFB47D9A20E5292A00B4C016 /* GenericsCommandManager.m */,
+			);
+			path = "案例3-泛型命令";
+			sourceTree = "<group>";
+		};
+		FFB47D9C20E52AAA00B4C016 /* 案例4-并发处理 */ = {
+			isa = PBXGroup;
+			children = (
+				FFB47D9D20E52AC800B4C016 /* QueueCommandMananger.h */,
+				FFB47D9E20E52AC800B4C016 /* QueueCommandMananger.m */,
+			);
+			path = "案例4-并发处理";
+			sourceTree = "<group>";
+		};
+		FFB47DA020E52CE400B4C016 /* 案例5-Block命令 */ = {
+			isa = PBXGroup;
+			children = (
+				FFB47DA120E52D1300B4C016 /* BlockCommandManager.h */,
+				FFB47DA220E52D1300B4C016 /* BlockCommandManager.m */,
+			);
+			path = "案例5-Block命令";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFB47D6C20E514CB00B4C016 /* CommandModelTestOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB47D7420E514CB00B4C016 /* Build configuration list for PBXNativeTarget "CommandModelTestOC" */;
+			buildPhases = (
+				FFB47D6920E514CB00B4C016 /* Sources */,
+				FFB47D6A20E514CB00B4C016 /* Frameworks */,
+				FFB47D6B20E514CB00B4C016 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommandModelTestOC;
+			productName = CommandModelTestOC;
+			productReference = FFB47D6D20E514CB00B4C016 /* CommandModelTestOC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFB47D6520E514CB00B4C016 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = kunge;
+				TargetAttributes = {
+					FFB47D6C20E514CB00B4C016 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = FFB47D6820E514CB00B4C016 /* Build configuration list for PBXProject "CommandModelTestOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFB47D6420E514CB00B4C016;
+			productRefGroup = FFB47D6E20E514CB00B4C016 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFB47D6C20E514CB00B4C016 /* CommandModelTestOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFB47D6920E514CB00B4C016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB47D9120E5230B00B4C016 /* WrapperCommand.m in Sources */,
+				FFB47D9B20E5292A00B4C016 /* GenericsCommandManager.m in Sources */,
+				FFB47D8A20E51E9E00B4C016 /* DynamicCommand.m in Sources */,
+				FFB47D9820E5268F00B4C016 /* GenericsCommand.m in Sources */,
+				FFB47D9F20E52AC800B4C016 /* QueueCommandMananger.m in Sources */,
+				FFB47D8D20E5206200B4C016 /* DynamicCommandManager.m in Sources */,
+				FFB47D8020E5198200B4C016 /* TMCommandManager.m in Sources */,
+				FFB47D8320E519D200B4C016 /* TMRightCommand.m in Sources */,
+				FFB47D7120E514CB00B4C016 /* main.m in Sources */,
+				FFB47D8620E51A7B00B4C016 /* TMTransformCommand.m in Sources */,
+				FFB47D9420E5239300B4C016 /* WrapperCommandManager.m in Sources */,
+				FFB47D7D20E5186400B4C016 /* TetrisMachine.m in Sources */,
+				FFB47D7A20E517DF00B4C016 /* TMLeftCommand.m in Sources */,
+				FFB47DA320E52D1300B4C016 /* BlockCommandManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FFB47D7220E514CB00B4C016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FFB47D7320E514CB00B4C016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FFB47D7520E514CB00B4C016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFB47D7620E514CB00B4C016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFB47D6820E514CB00B4C016 /* Build configuration list for PBXProject "CommandModelTestOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB47D7220E514CB00B4C016 /* Debug */,
+				FFB47D7320E514CB00B4C016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB47D7420E514CB00B4C016 /* Build configuration list for PBXNativeTarget "CommandModelTestOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB47D7520E514CB00B4C016 /* Debug */,
+				FFB47D7620E514CB00B4C016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFB47D6520E514CB00B4C016 /* Project object */;
+}
